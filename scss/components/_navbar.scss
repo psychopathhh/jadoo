@@ -1,0 +1,47 @@
+nav {
+    display: flex;
+    gap: 3rem;
+}
+.logo {
+    width: 114.91px;
+    height: 33.99px;
+}
+.navigation {
+    gap: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    text-transform: capitalize;
+    flex-wrap: nowrap;
+    padding: 0 0 18px 0;
+    font-family: 'GoogleSansRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: $navigation__link-color;
+    &__links {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        gap: 3rem;
+        margin: 0;
+    }
+}
+.register-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    & button {
+        text-transform: capitalize;
+        border: none;
+        background: transparent;
+        &:last-child {
+            border: 1px solid $navigation__link-color;
+            border-radius: 5px;
+            padding: 9px 21px;
+            min-width: 102px;
+            box-sizing: border-box;
+        }
+    }
+}

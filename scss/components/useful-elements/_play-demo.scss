@@ -1,0 +1,27 @@
+.play-demo {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    &__button {
+        background: $contrast-color;
+        box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.3);
+        border: 0;
+        padding: 25px;
+        border-radius: 50%;
+        &-triangle {
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-left: 15px solid #fff;
+            border-bottom: 10px solid transparent;
+        }
+    }
+    &__text {
+        font-family: 'PoppinsMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 26px;
+        color: $text-color;
+    }
+}

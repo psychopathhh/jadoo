@@ -1,0 +1,226 @@
+@font-face {
+  font-family: "GoogleSansRegular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/GoogleSans/Regular.eot");
+  src: url("../fonts/GoogleSans/Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/GoogleSans/Regular.woff") format("woff"), url("../fonts/GoogleSans/Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GoogleSansMedium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/GoogleSans/Medium.eot");
+  src: url("../fonts/GoogleSans/Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/GoogleSans/Medium.woff") format("woff"), url("../fonts/GoogleSans/Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MontserratRegular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Montserrat/Regular.eot");
+  src: url("../fonts/Montserrat/Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat/Regular.woff") format("woff"), url("../fonts/Montserrat/Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSansSemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/OpenSans/SemiBold.eot");
+  src: url("../fonts/OpenSans/SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans/SemiBold.woff") format("woff"), url("../fonts/OpenSans/SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PoppinsRegular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Poppins/Regular.eot");
+  src: url("../fonts/Poppins/Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins/Regular.woff") format("woff"), url("../fonts/Poppins/Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PoppinsMedium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Poppins/Medium.eot");
+  src: url("../fonts/Poppins/Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins/Medium.woff") format("woff"), url("../fonts/Poppins/Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PoppinsSemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Poppins/SemiBold.eot");
+  src: url("../fonts/Poppins/SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins/SemiBold.woff") format("woff"), url("../fonts/Poppins/SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PoppinsBold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Poppins/Bold.eot");
+  src: url("../fonts/Poppins/Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins/Bold.woff") format("woff"), url("../fonts/Poppins/Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "VolkhovBold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Volkhov/Bold.eot");
+  src: url("../fonts/Volkhov/Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Volkhov/Bold.woff") format("woff"), url("../fonts/Volkhov/Bold.ttf") format("truetype");
+}
+body {
+  background-image: url('../../assets/Decore.png');
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+}
+
+.cta-button {
+  font-family: "GoogleSansMedium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #F1A501;
+  box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+  border-radius: 10px;
+  padding: 19px 26px;
+  text-decoration: none;
+}
+
+.play-demo {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.play-demo__button {
+  background: #DF6951;
+  box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.3);
+  border: 0;
+  padding: 25px;
+  border-radius: 50%;
+}
+.play-demo__button-triangle {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 15px solid #fff;
+  border-bottom: 10px solid transparent;
+}
+.play-demo__text {
+  font-family: "PoppinsMedium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  color: #5E6282;
+}
+
+section {
+  background-image: url("../../assets/Image.png");
+  background-position: right;
+  height: 764px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.hero {
+  padding: 3rem 0 5rem;
+}
+.hero__content {
+  width: 546px;
+}
+.hero__tagline {
+  font-family: "PoppinsBold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #DF6951;
+  margin: 0 0 24px 0;
+  display: inline-block;
+}
+.hero__heading {
+  margin: 0 0 30px 0;
+  font-family: "VolkhovBold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 89px;
+  letter-spacing: -0.04em;
+  color: #14183e;
+  padding: 0;
+}
+.hero__description {
+  font-family: "PoppinsMedium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #5E6282;
+  margin: 0 0 34px 0;
+}
+.hero__buttons-more {
+  display: flex;
+  gap: 3rem;
+}
+.hero__decore-left {
+  position: absolute;
+  width: 478.94px;
+  height: 496.86px;
+  left: -420px;
+  top: -59.84px;
+  background: #D5AEE4;
+  filter: blur(75px);
+}
+
+nav {
+  display: flex;
+  gap: 3rem;
+}
+
+.logo {
+  width: 114.91px;
+  height: 33.99px;
+}
+
+.navigation {
+  gap: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  text-transform: capitalize;
+  flex-wrap: nowrap;
+  padding: 0 0 18px 0;
+  font-family: "GoogleSansRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #212832;
+}
+.navigation__links {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  gap: 3rem;
+  margin: 0;
+}
+
+.register-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.register-buttons button {
+  text-transform: capitalize;
+  border: none;
+  background: transparent;
+}
+.register-buttons button:last-child {
+  border: 1px solid #212832;
+  border-radius: 5px;
+  padding: 9px 21px;
+  min-width: 102px;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 141px;
+}/*# sourceMappingURL=style.css.map */

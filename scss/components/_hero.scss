@@ -1,0 +1,62 @@
+@import 'useful-elements/cta-button';
+@import 'useful-elements/play-demo';
+
+section {
+    background-image: url('../../assets/Image.png');
+    background-position: right;
+    height: 764px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    padding: 3rem 0 5rem;
+    &__content {
+        width: 546px;
+    }
+    &__tagline {
+        font-family: 'PoppinsBold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: $contrast-color;
+        margin: 0 0 24px 0;
+        display: inline-block;
+    }
+    &__heading {
+        margin: 0 0 30px 0;
+        font-family: 'VolkhovBold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 84px;
+        line-height: 89px;
+        letter-spacing: -0.04em;
+        color: $heading-color;
+        padding: 0;
+    }
+    &__description {
+        font-family: 'PoppinsMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        color: $text-color;
+        margin: 0 0 34px 0;
+    }
+    &__buttons-more {
+        display: flex;
+        gap: 3rem;
+    }
+    &__decore-left {
+        position: absolute;
+        width: 478.94px;
+        height: 496.86px;
+        left: -420px;
+        top: -59.84px;
+        background: #D5AEE4;
+        filter: blur(75px);
+    }
+}
